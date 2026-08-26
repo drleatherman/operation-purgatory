@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
   pageTitle: Operation Purgatory
-  pageTitleSuffix: "Save. Solve. Survive"
+  pageTitleSuffix: Save. Solve. Survive
   enableSPA: true
   enablePopovers: true
   analytics:
@@ -276,6 +276,10 @@ plugins:
       enableInteraction: true
       darkMode: auto
       exportPadding: 20
+    order: 50
+  - source: github:quartz-community/tui
+    enabled: true
+    options: {}
     order: 50
 layout:
   groups:

@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: operation-purgatory.github.io
+  baseUrl: drleatherman.github.io/operation-purgatory
   ignorePatterns:
     - private
     - templates
